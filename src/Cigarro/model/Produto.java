@@ -70,13 +70,13 @@ public abstract class Produto {
 		break;
 		}
 		
-		System.out.println("\n\n*****************************************");
-		System.out.println("Informações do produto:");
-		System.out.println("*****************************************");
-		System.out.println("ID do Produto: " + this.id);
-		System.out.println("Marca do Cigarro: " + this.nome);
-		System.out.println("Valor em Reais: R$" + this.valor);
-		System.out.println("Tipo de filtro: " + tipo);
+		System.out.println("|------------------------------------|");
+		System.out.println("|   Informações do produto:          |");
+		System.out.println("|------------------------------------|");
+		System.out.println("|  ID do Produto: " + this.id+"      |");
+		System.out.println("|Marca do Cigarro: " + this.nome+"   |");
+		System.out.println("|Valor em Reais: R$" + this.valor+"  |");
+		System.out.println("|Tipo de filtro: " + tipo+"          |");
 	}
 	
 	

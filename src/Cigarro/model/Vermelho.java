@@ -2,7 +2,7 @@ package Cigarro.model;
 
 public class Vermelho extends Produto{
 	
-	private String filtro = "Mais forte!";
+	private String filtro;
 
 	public Vermelho(String nome, double valor, int tipo, int id, String filtro) {
 		super(nome, valor, tipo, id);
@@ -19,7 +19,8 @@ public class Vermelho extends Produto{
 	@Override
 	public void visualizar() {
 			super.visualizar();
-			System.out.println("O cigarro de filtro vermelho é " + this.filtro);
-	}
+			System.out.println("|O cigarro de filtro vermelho é " + this.filtro+"|");
+			System.out.println("|------------------------------------------|");
+	}						   
 
 }

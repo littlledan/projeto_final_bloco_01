@@ -2,7 +2,7 @@ package Cigarro.model;
 
 public class Branco extends Produto{
 	
-	private String filtro2 = "Mais fraco!";
+	private String filtro2;
 
 	public Branco(String nome, double valor, int tipo, int id, String filtro2) {
 		super(nome, valor, tipo, id);
