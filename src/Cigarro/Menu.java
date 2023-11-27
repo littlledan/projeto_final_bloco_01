@@ -40,23 +40,23 @@ public class Menu {
 
 			switch (opcao) {
 				case 1:
-					System.out.println("Adicionar Cigarro\n\n");
+					System.out.println("Adicionar Cigarro:\n\n");
 
 					break;
 				case 2:
-					System.out.println("Listar todos os Cigarros\n\n");
+					System.out.println("Listar todos os Cigarros:\n\n");
 
 					break;
 				case 3:
-					System.out.println("Consultar Cigarros - por ID\n\n");
+					System.out.println("Consultar Cigarros - por ID:\n\n");
 
 					break;
 				case 4:
-					System.out.println("Atualizar produtos do estoque\n\n");
+					System.out.println("Atualizar produtos ao estoque:\n\n");
 
 					break;
 				case 5:
-					System.out.println("Apagar o Produto\n\n");
+					System.out.println("Apagar o Produto.\n\n");
 
 					break;
 				default:
